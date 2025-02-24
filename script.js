@@ -51,7 +51,6 @@ function Adharno(){
 function pannum(){
     var text = (document.getElementById("text").value)
     var length = document.getElementById("text").innerHTML = text.length;
-    var text1 = document.getElementById("text").innerHTML = text.toUpperCase();
 
     if (text.length !== 10) {
         console.log("Invalid PAN Number")
@@ -74,7 +73,7 @@ function pannum(){
         alert("\nThe last character must be an alphabet.");
         return;
       }  
-      console.log("\nThe PAN Number : "+text1,+length,"Digits\nValid Number ")
+      console.log("\nThe PAN Number : "+text,+length,"Digits\nValid Number ")
       alert("PAN number is valid!");
     }
     //Date of Birth Validation//
