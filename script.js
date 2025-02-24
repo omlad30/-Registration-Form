@@ -51,7 +51,7 @@ function Adharno(){
 function pannum(){
     var text = (document.getElementById("text").value)
     var length = document.getElementById("text").innerHTML = text.length;
-    var text1 = document.getElementById("demo").innerHTML = text.toUpperCase();
+    var text1 = document.getElementById("text").innerHTML = text.toUpperCase();
 
     if (text.length !== 10) {
         console.log("Invalid PAN Number")
